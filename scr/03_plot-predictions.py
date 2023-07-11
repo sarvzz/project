@@ -5,4 +5,3 @@ plt.xlabel("Feature 1")
 plt.ylabel("Feature 2")
 plt.legend()
 plt.savefig("predictions.png")  # Save the plot to a PNG file
-plt.close()

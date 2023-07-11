@@ -6,4 +6,4 @@ plt.ylabel("Feature 2")
 plt.legend()
 plt.savefig("dataset-image.png")  # Save the plot to a PNG file
 plt.close()
-plt.show()
+
