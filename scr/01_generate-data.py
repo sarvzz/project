@@ -14,4 +14,5 @@ y = np.random.randint(0, 2, n_samples)
 
 # Convert to pandas DataFrame and save to CSV
 df = pd.DataFrame(np.column_stack([X, y]), columns=[f"feature_{i+1}" for i in range(n_features)] + ["target"])
-df.to_csv("dataset.csv", index=False)
+
+
